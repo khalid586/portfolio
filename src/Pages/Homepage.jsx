@@ -14,7 +14,7 @@ function Homepage() {
     <div>
       <Navbar></Navbar>
       <Banner></Banner>
-      <Experience></Experience>
+      {/* <Experience></Experience> */}
       <Education></Education>
       <Skills></Skills>
       <Projects></Projects>

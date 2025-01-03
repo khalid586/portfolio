@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import daisyui from 'daisyui';
 
 
 export default {
@@ -17,7 +18,7 @@ export default {
       },
     },
     plugins: [
-      require('daisyui'),
+      daisyui,
     function({ addUtilities }) {
       const newUtilities = {
         // '.btn': {
@@ -30,24 +31,8 @@ export default {
         //   backgroundColor: '#0BE58A',
         //   transition: 'background-color 0.3s ease',
         // },
-        '.btn2': {
-          padding: '.5rem 1rem',
-          borderRadius: '15px',
-          fontWeight: '600',
-          cursor: 'pointer',
-          display: 'inline-block',
-          color: '#fff',
-          backgroundColor: 'red',
-          transition: 'background-color 0.3s ease',
-        },
-        // '.btn:hover': {
-        //   backgroundColor: '#357cd6',
-        //   color:'white'
-        // },
       };
-
-      addUtilities(newUtilities, ['responsive', 'hover']);
+      addUtilities(newUtilities);
     },
   ],
 }
-

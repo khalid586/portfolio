@@ -6,14 +6,14 @@ function Banner() {
         <div className='md:flex justify-between'>
             <div className='pt-8'>
                 <p className='text-4xl font-bold flex items-center justify-center'><img src="hand wave.gif" width={100} alt="" /> Hi, I am Khalid Abdullah </p>
-                <p className='text-center text-2xl font-bold'>Software Developer</p>
-                <div className='flex-col items-center md:px-32'>
+                <p className='text-center text-xl font-semibold'>Software Engineer @<span className='font-extrabold'>Dotlines</span></p>
+
+                {/* <div className='flex-col items-center md:px-32'>
                     <p className='md:px-16  py-2'>Computer Science and Engineering graduate having 3+ years of experience of solving problems and competing in National competitions like ICPC and IUPC
                     and 1 year of experience of developing web applications.
                     </p>
-                    <p className='text-gray-700 md:px-16  py-2 font-semibold'>Currently developing  MVP @<span className='font-bold text-black'>Alizen world</span>.</p>
-                </div>
-
+                    <p className='text-gray-700 md:px-16  py-2 font-semibold'>Software Engineer @<span className='font-bold text-black'>Dotlines</span>.</p>
+                </div> */}
 
                 <div className="flex space-x-4 justify-center my-6">
                     <a href="https://www.linkedin.com/in/khalid-abdullah-47b655190/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 flex">
